@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Media Carousel - Carrusel de Videos e Imágenes
 
-## Getting Started
+Carrusel moderno que muestra automáticamente videos e imágenes uno por uno.
 
-First, run the development server:
+## 🚀 Despliegue en Vercel
 
-```bash
+### Paso 1: Preparar tus archivos
+
+Coloca todos tus archivos (imágenes y videos) en la carpeta `public/media/`
+- Imágenes soportadas: `.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`, `.svg`
+- Videos soportados: `.mp4`, `.webm`, `.ogg`, `.mov`
+
+### Paso 2: Generar lista de archivos
+
+Ejecuta el siguiente comando para generar automáticamente la lista de archivos:
+
+\`\`\`bash
+node scripts/generate-media-list.mjs
+\`\`\`
+
+Este script:
+- Escanea la carpeta `public/media/`
+- Detecta automáticamente todos los archivos multimedia
+- Genera el archivo API con la lista completa
+- Te muestra cuántos archivos encontró
+
+### Paso 3: Desplegar
+
+Desde v0:
+1. Haz clic en el botón **"Publish"** en la esquina superior derecha
+2. Selecciona tu proyecto de Vercel
+3. ¡Listo! Tu carrusel estará en línea
+
+O desde GitHub:
+1. Sube tu proyecto a GitHub
+2. Conecta tu repositorio en Vercel
+3. Vercel desplegará automáticamente
+
+## 📱 Características
+
+- **Responsivo**: Funciona perfectamente en móvil, tablet y escritorio
+- **Gestos táctiles**: Desliza para navegar en dispositivos táctiles
+- **Reproducción automática**: Los videos se reproducen automáticamente
+- **Controles intuitivos**: Flechas de navegación, play/pause, contador
+- **Optimizado**: Carga eficiente de archivos multimedia
+
+## 🛠️ Desarrollo Local
+
+\`\`\`bash
+# Instalar dependencias
+npm install
+
+# Ejecutar en desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Generar lista de archivos
+node scripts/generate-media-list.mjs
+\`\`\`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Abre [http://localhost:3000](http://localhost:3000) para ver el carrusel.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Estructura de Carpetas
 
-## Learn More
+\`\`\`
+public/
+  media/           <- Coloca aquí tus 977 archivos
+    video1.mp4
+    imagen1.jpg
+    video2.mp4
+    ...
+\`\`\`
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 Notas importantes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Asegúrate de ejecutar `node scripts/generate-media-list.mjs` cada vez que agregues o elimines archivos
+- Los archivos deben estar en `public/media/` para ser accesibles
+- Vercel tiene límites de tamaño de archivos (máx. 50MB por archivo en el plan gratuito)
