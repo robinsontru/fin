@@ -4989,46 +4989,8 @@ export default function MediaCarousel() {
     src: "/media/VID-20250708-WA0014.mp4",
     name: "VID-20250708-WA0014.mp4"
   },
-  {
-    type: "image",
-    src: "/media/WhatsApp Image 2025-04-19 at 8.51.06 AM.jpeg",
-    name: "WhatsApp Image 2025-04-19 at 8.51.06 AM.jpeg"
-  },
-  {
-    type: "image",
-    src: "/media/WhatsApp Image 2025-04-19 at 9.45.54 AM (1).jpeg",
-    name: "WhatsApp Image 2025-04-19 at 9.45.54 AM (1).jpeg"
-  },
-  {
-    type: "image",
-    src: "/media/WhatsApp Image 2025-04-19 at 9.45.54 AM (2).jpeg",
-    name: "WhatsApp Image 2025-04-19 at 9.45.54 AM (2).jpeg"
-  },
-  {
-    type: "image",
-    src: "/media/WhatsApp Image 2025-04-19 at 9.45.54 AM (3).jpeg",
-    name: "WhatsApp Image 2025-04-19 at 9.45.54 AM (3).jpeg"
-  },
-  {
-    type: "image",
-    src: "/media/WhatsApp Image 2025-04-19 at 9.45.54 AM (4).jpeg",
-    name: "WhatsApp Image 2025-04-19 at 9.45.54 AM (4).jpeg"
-  },
-  {
-    type: "image",
-    src: "/media/WhatsApp Image 2025-04-19 at 9.45.55 AM (1).jpeg",
-    name: "WhatsApp Image 2025-04-19 at 9.45.55 AM (1).jpeg"
-  },
-  {
-    type: "image",
-    src: "/media/WhatsApp Image 2025-04-19 at 9.45.55 AM (2).jpeg",
-    name: "WhatsApp Image 2025-04-19 at 9.45.55 AM (2).jpeg"
-  },
-  {
-    type: "image",
-    src: "/media/WhatsApp Image 2025-04-19 at 9.45.55 AM.jpeg",
-    name: "WhatsApp Image 2025-04-19 at 9.45.55 AM.jpeg"
-  }
+
+  
 
         ])
       } finally {
