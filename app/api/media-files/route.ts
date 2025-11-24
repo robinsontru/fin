@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 
 // Este archivo fue generado automáticamente por scripts/generate-media-list.mjs
-// Total de archivos: 987
+// Total de archivos: 974
 
 export async function GET() {
   const mediaFiles = [
@@ -22,33 +22,8 @@ export async function GET() {
   },
   {
     "type": "image",
-    "src": "/media/ac093b91-a5a3-4c0a-808c-c91e6163dd22.jpg",
-    "name": "ac093b91-a5a3-4c0a-808c-c91e6163dd22.jpg"
-  },
-  {
-    "type": "image",
     "src": "/media/e9fb1fdf072a0cc710670e4d1abb3b22.jpg",
     "name": "e9fb1fdf072a0cc710670e4d1abb3b22.jpg"
-  },
-  {
-    "type": "image",
-    "src": "/media/IMG-20230323-WA0014.jpg",
-    "name": "IMG-20230323-WA0014.jpg"
-  },
-  {
-    "type": "image",
-    "src": "/media/IMG-20230425-WA0004.jpg",
-    "name": "IMG-20230425-WA0004.jpg"
-  },
-  {
-    "type": "image",
-    "src": "/media/IMG-20230623-WA0033.jpg",
-    "name": "IMG-20230623-WA0033.jpg"
-  },
-  {
-    "type": "image",
-    "src": "/media/IMG-20230623-WA0034.jpg",
-    "name": "IMG-20230623-WA0034.jpg"
   },
   {
     "type": "image",
@@ -4899,46 +4874,6 @@ export async function GET() {
     "type": "video",
     "src": "/media/VID-20250708-WA0014.mp4",
     "name": "VID-20250708-WA0014.mp4"
-  },
-  {
-    "type": "image",
-    "src": "/media/WhatsApp Image 2025-04-19 at 8.51.06 AM.jpeg",
-    "name": "WhatsApp Image 2025-04-19 at 8.51.06 AM.jpeg"
-  },
-  {
-    "type": "image",
-    "src": "/media/WhatsApp Image 2025-04-19 at 9.45.54 AM (1).jpeg",
-    "name": "WhatsApp Image 2025-04-19 at 9.45.54 AM (1).jpeg"
-  },
-  {
-    "type": "image",
-    "src": "/media/WhatsApp Image 2025-04-19 at 9.45.54 AM (2).jpeg",
-    "name": "WhatsApp Image 2025-04-19 at 9.45.54 AM (2).jpeg"
-  },
-  {
-    "type": "image",
-    "src": "/media/WhatsApp Image 2025-04-19 at 9.45.54 AM (3).jpeg",
-    "name": "WhatsApp Image 2025-04-19 at 9.45.54 AM (3).jpeg"
-  },
-  {
-    "type": "image",
-    "src": "/media/WhatsApp Image 2025-04-19 at 9.45.54 AM (4).jpeg",
-    "name": "WhatsApp Image 2025-04-19 at 9.45.54 AM (4).jpeg"
-  },
-  {
-    "type": "image",
-    "src": "/media/WhatsApp Image 2025-04-19 at 9.45.55 AM (1).jpeg",
-    "name": "WhatsApp Image 2025-04-19 at 9.45.55 AM (1).jpeg"
-  },
-  {
-    "type": "image",
-    "src": "/media/WhatsApp Image 2025-04-19 at 9.45.55 AM (2).jpeg",
-    "name": "WhatsApp Image 2025-04-19 at 9.45.55 AM (2).jpeg"
-  },
-  {
-    "type": "image",
-    "src": "/media/WhatsApp Image 2025-04-19 at 9.45.55 AM.jpeg",
-    "name": "WhatsApp Image 2025-04-19 at 9.45.55 AM.jpeg"
   }
 ]
 
